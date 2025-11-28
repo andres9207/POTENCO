@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Autoloader.php" server="www.pavas.co/m2/" local="131334160263840242" remote="131332291800000000" Dst="0" />
+<file name="CachedObjectStorageFactory.php" server="www.pavas.co/m2/" local="131334160303050749" remote="131332291800000000" Dst="0" />
+<file name="Calculation.php" server="www.pavas.co/m2/" local="131334160367675570" remote="131332291800000000" Dst="0" />
+<file name="Cell.php" server="www.pavas.co/m2/" local="131334160374787539" remote="131332291800000000" Dst="0" />
+<file name="Chart.php" server="www.pavas.co/m2/" local="131334160395808025" remote="131332291800000000" Dst="0" />
+<file name="Comment.php" server="www.pavas.co/m2/" local="131334160395823037" remote="131332291800000000" Dst="0" />
+<file name="DocumentProperties.php" server="www.pavas.co/m2/" local="131334160402600048" remote="131332291800000000" Dst="0" />
+<file name="DocumentSecurity.php" server="www.pavas.co/m2/" local="131334160402820210" remote="131332291800000000" Dst="0" />
+<file name="Exception.php" server="www.pavas.co/m2/" local="131334160402960299" remote="131332291800000000" Dst="0" />
+<file name="HashTable.php" server="www.pavas.co/m2/" local="131334160409765883" remote="131332291800000000" Dst="0" />
+<file name="IComparable.php" server="www.pavas.co/m2/" local="131334160409830939" remote="131332291800000000" Dst="0" />
+<file name="IOFactory.php" server="www.pavas.co/m2/" local="131334160410001047" remote="131332291800000000" Dst="0" />
+<file name="NamedRange.php" server="www.pavas.co/m2/" local="131334160416800934" remote="131332291800000000" Dst="0" />
+<file name="ReferenceHelper.php" server="www.pavas.co/m2/" local="131334160465215144" remote="131332291800000000" Dst="0" />
+<file name="RichText.php" server="www.pavas.co/m2/" local="131334160472403345" remote="131332291800000000" Dst="0" />
+<file name="Settings.php" server="www.pavas.co/m2/" local="131334160472738417" remote="131332291800000000" Dst="0" />
+<file name="Style.php" server="www.pavas.co/m2/" local="131334160609761798" remote="131332291800000000" Dst="0" />
+<file name="WorksheetIterator.php" server="www.pavas.co/m2/" local="131334160657637299" remote="131332291800000000" Dst="0" />
+<file name="Worksheet.php" server="www.pavas.co/m2/" local="131334160663127015" remote="131332291800000000" Dst="0" />
+<file name="Autoloader.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160263840242" remote="131346835800000000" Dst="0" />
+<file name="CachedObjectStorageFactory.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160303050749" remote="131346835800000000" Dst="0" />
+<file name="Calculation.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160367675570" remote="131346835800000000" Dst="0" />
+<file name="Cell.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160374787539" remote="131346835800000000" Dst="0" />
+<file name="Chart.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160395808025" remote="131346835800000000" Dst="0" />
+<file name="Comment.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160395823037" remote="131346835800000000" Dst="0" />
+<file name="DocumentProperties.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160402600048" remote="131346835800000000" Dst="0" />
+<file name="DocumentSecurity.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160402820210" remote="131346835800000000" Dst="0" />
+<file name="Exception.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160402960299" remote="131346835800000000" Dst="0" />
+<file name="HashTable.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160409765883" remote="131346835800000000" Dst="0" />
+<file name="IComparable.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160409830939" remote="131346835800000000" Dst="0" />
+<file name="IOFactory.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160410001047" remote="131346835800000000" Dst="0" />
+<file name="NamedRange.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160416800934" remote="131346835800000000" Dst="0" />
+<file name="ReferenceHelper.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160465215144" remote="131346835800000000" Dst="0" />
+<file name="RichText.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160472403345" remote="131346835800000000" Dst="0" />
+<file name="Settings.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160472738417" remote="131346835800000000" Dst="0" />
+<file name="Style.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160609761798" remote="131346835800000000" Dst="0" />
+<file name="WorksheetIterator.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160657637299" remote="131346835800000000" Dst="0" />
+<file name="Worksheet.php" server="www.pavas.com.co/httpdocs/m2/" local="131334160663127015" remote="131346835800000000" Dst="0" />
+</dwsync>

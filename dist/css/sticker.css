@@ -1,0 +1,77 @@
+.stick-producto{
+    text-align:left; 
+    font-size:1.4em; 
+    font-weight:bold; 
+    padding-left:5mm;
+    padding-right:5mm;
+    font-family: Garamond;
+}
+.stick-und{
+    text-align:left; 
+    font-size:4mm;
+    vertical-align:top; 
+    padding-left:5mm;
+    font-family: MartelSans-ExtraBold;
+}
+.stick-slogan{
+    text-align:center; 
+    font-size:4mm; 
+    font-weight:bold; 
+    letter-spacing:1px;
+    font-family:MartelSans-SemiBold;
+    line-height: 4mm
+}
+.stick-cod{
+    text-align: right; 
+    font-size:1.5mm; 
+    font-weight:bold;
+    font-family: MartelSans-Regular;
+}
+.stick-logo{
+    text-align:center; 
+    font-size:4mm; 
+    font-weight:bold; 
+    font-family: MartelSans-Regular; 
+    width:5%; 
+    padding-left:5mm
+}
+
+.stick-mad{
+    text-align:left; 
+    font-size:3.5mm;
+    vertical-align:top; 
+    font-family: MartelSans-Regular; 
+    width:40%; padding-left:5mm;
+    padding-right:5mm;
+}
+.stick-codbar{
+    text-align:right; 
+    vertical-align:bottom;
+    width:60%;
+    padding-right:5mm;
+}
+.stick-codbar-text{
+    text-align:center;
+    font-weight:bold; 
+    vertical-align:top; 
+    font-size:2mm;
+    font-family: MartelSans-Regular
+}
+.stick-tit-0{
+    text-align: center; 
+    font-size:4mm;
+    font-family: MartelSans-Regular;
+    padding-left:5mm;
+    padding-right:5mm;
+}
+.stick-tit-1{
+    font-size:7mm;
+    font-weight:bold;
+    font-family: BrittanySignature;
+    margin-top: 5px;
+}
+.stick-tit-2{
+    font-size:2.7mm; 
+    letter-spacing:0.7px;
+    font-family: MartelSans-ExtraLigh;
+}

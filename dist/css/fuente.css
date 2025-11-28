@@ -1,0 +1,47 @@
+@font-face {
+    font-family: BrittanySignature;
+    src:url(../css/fonts/brittany_signature/BrittanySignature.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: Garamond;
+    src:url(../css/fonts/Garamond/GDBOS___.TTF) format("truetype");
+    }
+     
+    @font-face {
+    font-family: MartelSans-Black;
+    src:url(../css/fonts/Martel_Sans/MartelSans-Black.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: MartelSans-Bold;
+        src:url(../css/fonts/Martel_Sans/MartelSans-Bold.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: MartelSans-ExtraBold;
+        src:url(../css/fonts/Martel_Sans/MartelSans-ExtraBold.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: MartelSans-Light;
+    src:url(../css/fonts/Martel_Sans/MartelSans-Light.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: MartelSans-ExtraLigh;
+    src:url(../css/fonts/Martel_Sans/MartelSans-ExtraLight.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: MartelSans-SemiBold;
+    src:url(../css/fonts/Martel_Sans/MartelSans-SemiBold.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: MartelSans-Regular;
+    src:url(../css/fonts/Martel_Sans/MartelSans-Regular.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: MartelSans-ExtraBold;
+    src:url(../css/fonts/IBMPlexMono-MediumItalic.ttf) format("truetype");
+    }
+    @font-face {
+    font-family: MartelSans-Bold;
+    src:url(../css/fonts/IBMPlexMono-Thin.ttf) format("truetype");
+    }
+    
+  

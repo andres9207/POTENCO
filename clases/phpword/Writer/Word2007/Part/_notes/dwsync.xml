@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractPart.php" server="www.pavas.co/Interve/" local="131346125435000920" remote="131100084000000000" Dst="0" />
+<file name="Chart.php" server="www.pavas.co/Interve/" local="131346125442911944" remote="131100084000000000" Dst="0" />
+<file name="ContentTypes.php" server="www.pavas.co/Interve/" local="131346125442762019" remote="131100084000000000" Dst="0" />
+<file name="DocPropsApp.php" server="www.pavas.co/Interve/" local="131346125443162465" remote="131100084000000000" Dst="0" />
+<file name="DocPropsCore.php" server="www.pavas.co/Interve/" local="131346125449687722" remote="131100084000000000" Dst="0" />
+<file name="DocPropsCustom.php" server="www.pavas.co/Interve/" local="131346125449567818" remote="131100084000000000" Dst="0" />
+<file name="Document.php" server="www.pavas.co/Interve/" local="131346125449817829" remote="131100084000000000" Dst="0" />
+<file name="Endnotes.php" server="www.pavas.co/Interve/" local="131346125456123530" remote="131100084000000000" Dst="0" />
+<file name="FontTable.php" server="www.pavas.co/Interve/" local="131346125456193471" remote="131100084000000000" Dst="0" />
+<file name="Footer.php" server="www.pavas.co/Interve/" local="131346125456413738" remote="131100084000000000" Dst="0" />
+<file name="Footnotes.php" server="www.pavas.co/Interve/" local="131346125462782649" remote="131100084000000000" Dst="0" />
+<file name="Header.php" server="www.pavas.co/Interve/" local="131346125462662739" remote="131100084000000000" Dst="0" />
+<file name="Numbering.php" server="www.pavas.co/Interve/" local="131346125462952769" remote="131100084000000000" Dst="0" />
+<file name="RelsDocument.php" server="www.pavas.co/Interve/" local="131346125469343877" remote="131100084000000000" Dst="0" />
+<file name="Rels.php" server="www.pavas.co/Interve/" local="131346125469243809" remote="131100084000000000" Dst="0" />
+<file name="RelsPart.php" server="www.pavas.co/Interve/" local="131346125469458166" remote="131100084000000000" Dst="0" />
+<file name="Settings.php" server="www.pavas.co/Interve/" local="131346125475903522" remote="131100084000000000" Dst="0" />
+<file name="Styles.php" server="www.pavas.co/Interve/" local="131346125475773584" remote="131100084000000000" Dst="0" />
+<file name="WebSettings.php" server="www.pavas.co/Interve/" local="131346125482458272" remote="131100084000000000" Dst="0" />
+<file name="Theme.php" server="www.pavas.co/Interve/" local="131346125476739534" remote="131100084000000000" Dst="0" />
+<file name="AbstractPart.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125435000920" remote="131359258200000000" Dst="0" />
+<file name="Chart.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125442911944" remote="131359258200000000" Dst="0" />
+<file name="ContentTypes.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125442762019" remote="131359258200000000" Dst="0" />
+<file name="DocPropsApp.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125443162465" remote="131359258200000000" Dst="0" />
+<file name="DocPropsCore.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125449687722" remote="131359258200000000" Dst="0" />
+<file name="DocPropsCustom.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125449567818" remote="131359258200000000" Dst="0" />
+<file name="Document.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125449817829" remote="131359258200000000" Dst="0" />
+<file name="Endnotes.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125456123530" remote="131359258200000000" Dst="0" />
+<file name="FontTable.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125456193471" remote="131359258200000000" Dst="0" />
+<file name="Footer.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125456413738" remote="131359258200000000" Dst="0" />
+<file name="Footnotes.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125462782649" remote="131359258200000000" Dst="0" />
+<file name="Header.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125462662739" remote="131359258200000000" Dst="0" />
+<file name="Numbering.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125462952769" remote="131359258200000000" Dst="0" />
+<file name="Rels.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125469243809" remote="131359258200000000" Dst="0" />
+<file name="RelsDocument.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125469343877" remote="131359258200000000" Dst="0" />
+<file name="RelsPart.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125469458166" remote="131359258200000000" Dst="0" />
+<file name="Settings.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125475903522" remote="131359258200000000" Dst="0" />
+<file name="Styles.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125475773584" remote="131359258200000000" Dst="0" />
+<file name="Theme.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125476739534" remote="131359258200000000" Dst="0" />
+<file name="WebSettings.php" server="www.pavas.com.co/httpdocs/Interve/" local="131346125482458272" remote="131359258200000000" Dst="0" />
+</dwsync>

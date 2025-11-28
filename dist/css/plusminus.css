@@ -1,0 +1,203 @@
+.plusminus {
+    display: inline-block;
+    position: relative;
+    font-size: 0;
+    overflow: hidden;
+    border-radius: 3px;
+    width: 44px;
+    height: 132px;
+  }
+  .plusminus button {
+    display: block;
+    width: 28px;
+    height: 38px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #17a2b8;
+    color: #fff;
+    font-size: 30.8px;
+    line-height: 1;
+    font-family: bonds, sans-serif;
+    cursor: pointer;
+    -moz-transition: color 200ms;
+    -o-transition: color 200ms;
+    -webkit-transition: color 200ms;
+    transition: color 200ms;
+  }
+  .plusminus button:focus {
+    outline: none;
+    color: #2bebaf;
+  }
+  .plusminus button:disabled {
+    background: #999;
+    color: #ccc;
+    cursor: default;
+  }
+  .plusminus button:first-child {
+    bottom: 0;
+  }
+  .plusminus button:first-child:before {
+    content: "-";
+  }
+  .plusminus button:last-child {
+    top: 0;
+  }
+  .plusminus button:last-child:before {
+    content: "+";
+  }
+  .plusminus button:last-child:focus {
+    color: #ff6367;
+  }
+  .plusminus input[type="number"] {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 44px;
+    margin: 0;
+    padding: 0 0 16.92308px;
+    border: 0;
+    font-size: 17.6px;
+    font-weight: bold;
+    text-align: center;
+    -moz-appearance: textfield;
+  }
+  .plusminus input[type="number"]::-webkit-outer-spin-button, .plusminus input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .plusminus:after {
+    content: "UND";
+    position: absolute;
+    font-size: 9.68px;
+    left: 0;
+    right: 0;
+    line-height: 1;
+    padding: 3.52px 0 3.52px 0;
+    width: 44px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    color: #888;
+    text-align: center;
+    bottom: 34%;
+  }
+  .plusminus.horiz {
+    width: 100px;
+    height: 38px;
+  }
+  .plusminus.horiz button:first-child {
+    left: 0;
+  }
+  .plusminus.horiz button:last-child {
+    right: 0;
+  }
+  .plusminus.horiz:after {
+    bottom: 0;
+  }
+  .plusminus.horiz input[type="number"] {
+    position: absolute;
+    top: -3px;
+    left: 30px;
+  }
+  .plusminus.stacked {
+    width: 88px;
+    height: 88px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .plusminus.stacked:after {
+    width: 100%;
+    bottom: 50%;
+  }
+  .plusminus.stacked button {
+    float: none;
+    top: auto;
+    bottom: 0;
+  }
+  .plusminus.stacked button:first-child {
+    left: 0;
+  }
+  .plusminus.stacked button:last-child {
+    right: 0;
+  }
+  .plusminus.stacked input[type="number"] {
+    top: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid #eee;
+    width: 100%;
+  }
+  .plusminus.stacked input[type="number"]:after {
+    width: 100%;
+  }
+
+  .add-novedad:hover
+  {
+    background-color: rgba(23,162,185,.5) !important;
+  }
+
+  .row-plusminus
+  {
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #17a2b8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .row-plusminus small{
+      color:#17a2b8;
+  }
+
+  @media screen and (max-width: 980px) {
+    .respon {
+      border: 0;
+    }
+  
+    .respon caption {
+      font-size: 1.3em;
+    }
+    
+    .respon thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .respon tr {
+      border-bottom: 3px solid #ddd !important;
+      display: block;
+      margin-bottom: .625em;
+    }
+  
+    .respon tr:nth-of-type(odd) {
+      background-color: #f9f9f9;
+    }
+    
+    .respon td {
+      border-bottom: 1px solid #ddd !important;
+      display: block;
+      font-size:14px;
+      text-align: right !important;
+    }
+    
+    .respon td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      /*text-transform: uppercase;*/
+    }
+    
+    .respon td:last-child {
+      border-bottom: 0;
+    }
+  }
+  

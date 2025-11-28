@@ -1,0 +1,132 @@
+.navbar-terracota,
+.bg-terracota,
+.btn-terracota {
+    background-color: #d96427;
+}
+
+.bg-terracota {
+    color: #fff
+}
+
+
+/*DataTable*/
+
+.dt-head-center {
+    text-align: center !important;
+}
+.parsley-minlength
+{
+    color: red !important;
+}
+
+.currencyRed
+{
+    color: red !important;
+    background-color: white;
+}
+
+.modal-title
+{
+    text-align: center !important;
+    width: 96% !important;
+}
+.modal-header
+{
+    background-color: #d96427 !important;
+    color: #fff !important
+}
+
+td.highlight {
+    background-color: rgb(255, 115, 0, .5) !important;
+}
+
+.btn-group>.btn:focus, .btn-group>.btn:active, .btn-group>.btn.active, .btn-group-vertical>.btn:focus, .btn-group-vertical>.btn:active, .btn-group-vertical>.btn.active
+{
+    box-shadow: 4px 4px rgb(0 0 0) !important;
+
+}
+
+table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.odd.selected {
+    background-color: rgb(255, 115, 0, .5) !important;
+}
+
+table.dataTable tbody tr.selected {
+    background-color: rgb(255, 115, 0, .5) !important
+}
+
+
+table.dataTable td.focus {
+        outline: 1px solid #d96427;
+        outline-offset: -3px;
+}
+
+.dt-Generados, .dt-Tomados, .dt-Remunerados
+{
+    cursor: pointer;
+}
+
+.limex td
+{
+    border:solid red;
+    border-width: 1px 0px ;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.bg-opacity-10
+{
+    opacity:.1
+}
+.bg-opacity-25
+{
+    opacity:.25
+}
+.bg-opacity-50
+{
+    opacity:.5
+}
+.bg-opacity-75
+{
+    opacity:.75
+}
+.bg-opacity-100
+{
+    opacity:1
+}
+
+.loader-section{
+    width: 100vw;
+    height: 10vh;
+    max-width: 100%;
+    /* position: fixed; */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    z-index:999;
+    transition: all 1s 1s ease-out;
+    opacity:1;
+  }
+  .loaded{
+    opacity:0;
+    z-index:-1;
+  }
+    
+  .loader {
+      width: 48px;
+      height: 48px;
+      border: 5px solid #623ddb;
+      border-bottom-color: transparent;
+      border-radius: 50%;
+      display: inline-block;
+      box-sizing: border-box;
+      animation: rotation 1s linear infinite;
+      }
+  
+  @keyframes rotation {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  } 
