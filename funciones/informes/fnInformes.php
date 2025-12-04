@@ -408,6 +408,7 @@ if (!function_exists('prepararDatasetPieHorasExtras')) {
             ['name' => 'HENF', 'y' => $totals['henf'] ?? 0, 'opcion' => 'HENF', 'empleados' => $empleadosPorTipo['henf'] ?? 0],
             ['name' => 'RN',   'y' => $totals['rn'] ?? 0,   'opcion' => 'RN',   'empleados' => $empleadosPorTipo['rn'] ?? 0],
             ['name' => 'HNF',  'y' => $totals['hnf'] ?? 0,  'opcion' => 'HNF',  'empleados' => $empleadosPorTipo['hnf'] ?? 0],
+            ['name' => 'RD',  'y' => $totals['rd'] ?? 0,  'opcion' => 'RD',  'empleados' => $empleadosPorTipo['rd'] ?? 0],
             ['name' => 'ARE',  'y' => $totals['are'] ?? 0,  'opcion' => 'ARE',  'empleados' => $empleadosPorTipo['are'] ?? 0]
         ];
     }
@@ -553,6 +554,7 @@ if (!function_exists('renderSeccionGraficosHorasExtras')) {
             HENF: 'Hora extra nocturna festiva',
             RN: 'Recargo nocturno',
             HNF: 'Recargo nocturno festivo',
+            RD: 'Recargo Dominical',
             ARE: 'Permisos / ARE'
         };
         const horaFieldMap = {
@@ -563,6 +565,7 @@ if (!function_exists('renderSeccionGraficosHorasExtras')) {
             HENF: 'henf',
             RN: 'rn',
             HNF: 'hnf',
+            RD: 'rd',
             ARE: 'are'
         };
 
