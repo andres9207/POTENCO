@@ -186,6 +186,8 @@ if($opcion=="NUEVO" || $opcion=="EDITAR" || $opcion=="APPROVED")
 }
 else if($opcion=="CARGARLIQUIDAR")
 {
+    // iniciar buffer para capturar la salida HTML y convertirla a Excel
+    if(!ob_get_level()) ob_start();
     $ano = $_POST['ano'];
     $mes = $_POST['mes']; $mes = ($mes<10)?"0".$mes:$mes;
     $emp = $_POST['emp'];
@@ -1479,6 +1481,45 @@ else if($opcion=="CARGARLIQUIDAR")
         </table>
         <?php
     }
+    // Capturar el HTML generado por el bloque y generar Excel
+    $html_output = '';
+    if(ob_get_level()){
+        $html_output = ob_get_clean();
+        // Volver a imprimir el HTML para que el flujo normal no cambie
+        echo $html_output;
+    }
+
+    // Generar archivo Excel usando PHPExcel (similar a informegeneralexcell.php)
+    try{
+        require_once __DIR__ . '/../../clases/PHPExcel.php';
+        // crear archivo temporal con el HTML y usar PHPExcel_Reader_HTML para cargarlo
+        $tmpHtml = tempnam(sys_get_temp_dir(), 'liq') . '.html';
+        file_put_contents($tmpHtml, $html_output);
+
+        $reader = new PHPExcel_Reader_HTML();
+        $objPHPExcelFromHtml = $reader->load($tmpHtml);
+
+        // nombre y carpeta destino (misma carpeta que informegeneralexcell.php)
+        $destDir = __DIR__ . '/../../modulos/informes/informe/';
+        if(!is_dir($destDir)){
+            @mkdir($destDir, 0755, true);
+        }
+        $fileName = 'LIQUIDACION_'.($emp ?? 'NA').'_'.date('Ymd_His').'.xlsx';
+        $destPath = $destDir . $fileName;
+
+        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcelFromHtml, 'Excel2007');
+        $objWriter->save($destPath);
+        @unlink($tmpHtml);
+
+        // Enlace relativo para acceso desde la web (ajustar si la estructura cambia)
+        $relativePath = 'modulos/informes/informe/' . $fileName;
+        echo "<div class='mt-2'>Exportado a Excel: <a href='".$relativePath."' target='_blank'>".$fileName."</a></div>";
+    }catch(Exception $e){
+        // si falla la generación del excel mostrar un mensaje sin interrumpir la salida
+        error_log('Error exportando liquidacion a Excel: '. $e->getMessage());
+        echo "<div class='alert alert-warning mt-2'>No se pudo generar el archivo Excel.</div>";
+    }
+
     echo "<script>INICIALIZARCONTENIDO();</script>";
 }
 
@@ -3634,8 +3675,10 @@ else if($opcion=="NUEVALIQUIDACION")
                 </div>
                 <div class="col-md-2"><br>
                      <button type="button" class="btn btn-sm btn-success" onclick="CRUDLIQUIDAR('GENERARALLPROFORMA','', '')" >Generar Todas las Liquidaciones</button>
-                </div>     
-                
+                </div>   
+                 <div class="col-md-1"><br>
+                     <button type="button" class="btn btn-sm btn-success" onclick="CRUDLIQUIDAR('EXPORTARLIQUIDACIONMASIVA','', '')" >Exportar</button>
+                </div>   
             </div>
     
             <div class="row mt-2 justify-content-center">
